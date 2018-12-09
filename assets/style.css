@@ -10,6 +10,9 @@ body {
   margin:0;
   color: #777777;
 }
+.topbo{
+  border-top: 3px solid lightgray;
+}
 
 .container {
   width: 100%;
@@ -29,4 +32,20 @@ body {
 
 .imagefamily{
   width: 80%;
+}
+
+.footcopy{
+ background-color: #777777;
+ text-align: center;
+ color: white;
+ padding-bottom: 0;
+ padding-top: 20px;
+ font-size: 10px;
+ 
+
+}
+.borderfootertop{
+  background-color: teal;
+  height: 5px;
+
 }
