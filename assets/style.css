@@ -12,8 +12,8 @@ body {
   background-image: url("topography.png");
 }
 
-.topbo{
-  border-top: 3px solid lightgray;
+.botbo{
+  border-bottom: 3px solid lightgray;
 }
 
 h1{
@@ -41,9 +41,9 @@ h1{
 .spacer1{
   padding: 10px;
 }
-
+/* If I remove this width =100% from my .imagefamily class the image takes up the whole screen not just 100% of the div. If I put a percentage in here it stays in its div. I am unsure why it does that. */
 .imagefamily{
-  width: 80%;
+  width: 100%;
 }
 
 .footcopy{
