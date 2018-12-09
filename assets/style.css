@@ -19,6 +19,7 @@ body {
 h1{
   color: #4aaaa5;
 }
+
 .container {
   width: 100%;
   max-width: 960px;
@@ -63,4 +64,21 @@ h1{
 }
 #main-container{
   background-color: white;
+}
+
+.positionrel{
+  position: relative;
+}
+
+.positionport{
+  position: absolute;
+  background-color: #4aaaa5;
+  z-index: 100;
+  color: white;
+  text-align: center;
+  height: 15%;
+  width: 90%;
+  bottom: 0;
+  margin: 0 auto;
+  left: 5%;
 }
