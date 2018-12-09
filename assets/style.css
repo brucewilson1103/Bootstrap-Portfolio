@@ -9,25 +9,37 @@ body {
   line-height: 34px;
   margin:0;
   color: #777777;
+  background-image: url("topography.png");
 }
+
 .topbo{
   border-top: 3px solid lightgray;
 }
 
+h1{
+  color: #4aaaa5;
+}
 .container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
 }
+#name{
+  width:100%;
+}
 
 #logo{
-  background-color: teal;
+  background-color: #4aaaa5;
   color:white;
   padding: 10px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 700;
   text-align: center;
   margin-top:10px;
+}
+
+.spacer1{
+  padding: 10px;
 }
 
 .imagefamily{
@@ -45,7 +57,10 @@ body {
 
 }
 .borderfootertop{
-  background-color: teal;
+  background-color: #4aaaa5;
   height: 5px;
 
+}
+#main-container{
+  background-color: white;
 }

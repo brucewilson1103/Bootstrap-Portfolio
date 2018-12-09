@@ -43,33 +43,44 @@
     <section class="main-section">
       <h1>Contact</h1>
 
-      <form id="contact-form">
-        <ul>
-          <li>
-            <label for="name">Name</label>
+      <form>
+          <div class="form-group">
+              <label for="name">Name</label> <br>
             <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-          </li>
-        </ul>
-        <input type="submit">
-      </form>
+            <!-- I am not sure why this text box has square edges as opposed to the rounded edges on the two below -->
+           
+          </div>
+          
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+         
+          <div class="spacer1"> <input class="btn btn-info" type="submit" value="Submit">
+          </div>
+          </form>
 
     </section>
 
   </div>
 
   <footer>
-    <div class="container">
-      Copyright &copy; 
-    </div>
-  </footer>
+      <div class="container">
+          <div class="row">
+            <div class="col-12 borderfootertop"> hi  </div>
+          </div>
+              <div class="row footcopy">
+                <div class="col-12" >
+                    Copyright &copy; 
+                </div>
+              </div>
+      </div>
+    </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
